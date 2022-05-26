@@ -1,0 +1,68 @@
+.main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.select {
+  font-weight: 700;
+  font-size: medium;
+}
+.dropdown{
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  display: inline-block;
+  margin-bottom: 1%;
+  width:100%
+}
+.nat{
+    font-size: medium;
+    font-weight: 500;
+}
+.list{
+  flex-direction: column;
+  margin-right :100%;
+  background-color: white;
+  color:rgb(34, 33, 33);
+}
+.userBg{
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 20px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 5px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.img{
+  border-radius: 30px;
+  padding: 1.5%;
+}
+.name{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+.email{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 50%;
+}
+.arrow{
+  width: 1.5%;
+  height: 1.5%;
+  margin-left: 95%;
+}
+@media only screen and (max-width: 450px){
+  .email{
+    position: absolute;
+  margin-top: 10%;
+  margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 450px){
+  .arrow{
+  width: 6%;
+  height: 6%;
+  margin-left: 85%;
+}
+}
