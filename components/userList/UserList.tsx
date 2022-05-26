@@ -31,7 +31,6 @@ const UserList = () => {
   };
   const [list, dispatch] = useReducer(reducer, users);
   const { nation, setNation, gender } =useContext(RootContext);
-  console.log(users)
   const maleUsers = users?.filter((user) => {
     return user.gender === "male";
   });
