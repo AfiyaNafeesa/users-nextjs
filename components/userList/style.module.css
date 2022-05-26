@@ -17,7 +17,7 @@
 }
 .nat{
     font-size: medium;
-    font-weight: 500;
+    font-weight: 400;
 }
 .list{
   flex-direction: column;
@@ -45,16 +45,16 @@
 .email{
   position: absolute;
   margin-top: 3%;
-  margin-left: 50%;
+  margin-left: 40%;
 }
 .arrow{
-  width: 1.5%;
-  height: 1.5%;
+  width: 28px;
+  height: 20px;
   margin-left: 95%;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 660px){
   .email{
-    position: absolute;
+  position: absolute;
   margin-top: 10%;
   margin-left: 1%;
   }
