@@ -6,4 +6,4 @@ export const callUsersApi = () => {
         method: 'GET',
         url: "/api/?results=10"
     })
-}
+} 

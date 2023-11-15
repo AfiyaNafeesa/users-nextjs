@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { RootContext } from "../../context/RootContext";
 import styles from "./style.module.css"
 
-const RadioButtons = () => {
+const RadioButtons = () => {  
   const {gender, setGender} = useContext(RootContext)
   const isSelected = (val:string) => gender === val;
   const handleClick = (e:any) :any => setGender(e.currentTarget.value);

@@ -11,4 +11,4 @@ const instance = axios.create({
 
 export default {
     makeApiCall : (options: AxiosRequestConfig<any>) => instance(options)
-}
+} 

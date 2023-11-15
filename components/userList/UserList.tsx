@@ -5,7 +5,7 @@ import styles from "./style.module.css"
 
 const UserList = () => {
   const [users, setUser] = useState([]);
-  //Reducer 
+  //Reducer  
   const reducer = (state: any, action: { type: any; }) => {
     switch (action.type) {
       case "UPDATE":
