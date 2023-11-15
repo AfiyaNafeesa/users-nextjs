@@ -1,6 +1,7 @@
 import axios, { AxiosRequestConfig } from "axios";
 import { Url } from "./Url";
 
+
 const instance = axios.create({
     baseURL: Url.baseUrl,
     headers: {
@@ -8,6 +9,6 @@ const instance = axios.create({
   },
 })
 
-export default{
+export default {
     makeApiCall : (options: AxiosRequestConfig<any>) => instance(options)
 }
